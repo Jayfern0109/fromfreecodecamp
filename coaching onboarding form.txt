@@ -1,0 +1,63 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+
+  <body>
+  <h1 id="title">Coaching onboarding questions</h1>
+  <p id="description">Get your custom workout program </p>
+<!-- contact info questions -->
+  <form id="survey-form">
+    <label id="name-label">Enter your name</label><br>
+    <input id="name" type="text" placeholder="John" required><br>
+
+    <label id="email-label">Enter your email</label><br>
+    <input id="email" type="email" placeholder="jonh@email.com" required><br>
+    
+    <label id="number-label">Enter your age</label><br>
+    <input id="number" type="number" min="16" max="99" placeholder="21" required>
+    <br><br>
+
+<!-- fitness questions -->
+    <label> Whats your goal? </label><br>
+    <input type="radio" id="gain-mass"  value="goal" name="goal">
+<label for="html">Gain muscle mass</label><br>
+  <input type="radio" id="lose-fat" value="goal" name="goal">
+<label for="html">lose fat</label><br>
+
+    <br><br>
+    <label>How did you hear about us?</label><br>
+    <select id="dropdown">
+      <option>Social Media</option>
+      <option>Word of mouth</option>   
+    </select><br><br>
+    
+    <label>Allergy to any food?</label><br>
+    <label>Yes</label>
+    <input type="checkbox" value="allergy"> 
+    <label>No</label>
+    <input type="checkbox" value="allergy">
+    <br><br>
+
+    <label>Please specify your allegies</label><br>
+    <textarea placeholder="I have shrimp allergy"></textarea>
+
+  <input type="submit" id="submit">
+
+
+  </form>
+  </body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
